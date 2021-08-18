@@ -1,0 +1,54 @@
+
+Creation de dossier de travail :
+
+	- mkdir DjangoProject
+	- cd DjangoProject
+
+Cration d'environement virtuel :
+
+	- python -m venv venv
+
+Activation de l'environement virtuel :
+
+	- venv\Scripts\activate
+	- (venv) PS C:\Users\ACER\Desktop\DjangoProject>
+
+Installation de Django :
+
+	- pip install django
+
+Creation de nouveau projet :
+
+	- django-admin startproject testsite
+
+Accees au dossier : 
+
+	- cd testsite
+
+Ecexution du serveur :
+
+	- python manage.py runserver
+
+
+
+-----------------------------------
+
+venv\Scripts\activate
+cd testsite
+python manage.py runserver
+http://127.0.0.1:8000/
+
+------------------------------------
+
+	- git init
+
+	- git add .
+
+	- git commit -m "my app first commit" 
+	
+	- git config --global user.name "Frahli10" $ git config --global user.email "fatima_rahli@hotmail.fr"
+
+
+	- git remote add origin https://github.com/Frahli10/django-project.git  
+
+	- git push -u --force origin master
